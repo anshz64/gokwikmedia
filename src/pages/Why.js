@@ -43,19 +43,19 @@ const testimonials = [
     name: "Sophia Brown",
     role: "E-Commerce Entrepreneur",
     text: "GoKwik Media turned our ads around – CTR doubled and conversions jumped. Couldn’t be happier with their service!",
-    avatar: "/assets/about/why/client/sophia.png",
+    avatar: "/assets/about/why/client/Michael.png",
   },
   {
     name: "Ryan Walker",
     role: "Marketing Lead",
     text: "Amazing attention to detail. They delivered exactly what we wanted and kept us informed at every step.",
-    avatar: "/assets/about/why/client/ryan.png",
+    avatar: "/assets/about/why/client/jesssica.png",
   },
   {
     name: "Emily Davis",
     role: "Founder, Lifestyle Brand",
     text: "Professional team with great ideas. They boosted our brand visibility and online sales quickly.",
-    avatar: "/assets/about/why/client/emily.png",
+    avatar: "/assets/about/why/client/david.png",
   },
 ];
 
@@ -74,6 +74,7 @@ const Why = () => {
   return (
     <div className="why-page">
       {/* ===== Service Strips ===== */}
+     
       <div className="why-strips">
         <div className="strip strip-red">
           <div className="strip-track-red">
@@ -99,7 +100,6 @@ const Why = () => {
           </div>
         </div>
       </div>
-
       {/* ===== Why Choose Us ===== */}
       <section className="why-choose-section">
         <div className="why-choose-header">
