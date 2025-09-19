@@ -84,7 +84,9 @@ function Services() {
     <section className="services-section">
       
       <div className="services-container">
-         <section className="services-header"></section>
+         <section className="services-header">
+          <img src="../components/services.css" alt="Our services" />
+         </section>
         <div className="services-grid">
           {servicesData.map((service, index) => (
             <div
