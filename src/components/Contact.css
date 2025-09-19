@@ -1,5 +1,6 @@
 /* contact header */
 .contact-header {
+  background: url("contact-us.png") no-repeat center center/cover;
   text-align: center;
   padding: 250px;
   color: white;
