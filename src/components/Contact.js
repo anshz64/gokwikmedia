@@ -2,12 +2,24 @@ import React from "react";
 import "./Contact.css";
 import ContactInfo from "./ContactInfo"; // ✅ import correctly
 
+
 function Contact() {
   return (
     
     <div className="contact-page">
       <section className="contact-header">
-        
+     <div
+  className="contact-section"
+  style={{
+    backgroundImage: "url('C:\Users\ic\gokwik-media\public\assets\contact-us.png')",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+    backgroundSize: "cover",
+  }}
+>
+  {/* content here */}
+</div>
+
       </section>
       {/* Contact Info Cards Section */}
       <ContactInfo />
